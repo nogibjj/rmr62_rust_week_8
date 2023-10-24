@@ -11,15 +11,19 @@ format:
 	cargo fmt --quiet
 
 lint:
+	cd test_v_python
 	cargo clippy --quiet
 
 test:
+	cd test_v_python
 	cargo test --quiet
 
 run:
+	cd test_v_python
 	cargo run
 
 release:
+	cd test_v_python
 	cargo build --release
 
 all: format lint test run
