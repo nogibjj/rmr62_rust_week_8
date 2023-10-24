@@ -10,7 +10,9 @@ format:
 	cargo fmt --quiet
 
 lint:
-	cargo clippy --quiet
+	@echo "Linting all projects with cargo"
+	@rustup component add clippy 2> /dev/null
+	./lint.sh
 
 test:
 	cargo test --quiet
