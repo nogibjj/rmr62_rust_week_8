@@ -11,6 +11,7 @@ format:
 	cargo fmt --quiet
 
 lint:
+	@pwd
 	cd test_v_python
 	cargo clippy --quiet
 
