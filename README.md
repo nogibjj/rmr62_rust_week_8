@@ -1,5 +1,7 @@
 # Rewrite a Python Script in Rust
 
+[![Build binary release](https://github.com/nogibjj/rmr62_rust_week_8/actions/workflows/release.yml/badge.svg)](https://github.com/nogibjj/rmr62_rust_week_8/actions/workflows/release.yml) [![Clippy](https://github.com/nogibjj/rmr62_rust_week_8/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/rmr62_rust_week_8/actions/workflows/lint.yml) [![Rustfmt](https://github.com/nogibjj/rmr62_rust_week_8/actions/workflows/rustfmt.yml/badge.svg)](https://github.com/nogibjj/rmr62_rust_week_8/actions/workflows/rustfmt.yml) [![Tests](https://github.com/nogibjj/rmr62_rust_week_8/actions/workflows/tests.yml/badge.svg)](https://github.com/nogibjj/rmr62_rust_week_8/actions/workflows/tests.yml)
+
 ## Performance comparison report
 ![A good starting point for a new Rust project](https://user-images.githubusercontent.com/36940292/277520394-6b82d493-3c4e-4fd5-bfee-d75cccda81a3.png)
 
