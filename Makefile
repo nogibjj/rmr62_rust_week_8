@@ -7,12 +7,11 @@ rust-version:
 	clippy-driver --version		#rust linter
 
 format:
+	cd test_v_python
 	cargo fmt --quiet
 
 lint:
-	@echo "Linting all projects with cargo"
-	@rustup component add clippy 2> /dev/null
-	./lint.sh
+	cargo clippy --quiet
 
 test:
 	cargo test --quiet
